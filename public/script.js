@@ -26,3 +26,18 @@ window.onresize = () => {
    cnv.width = innerWidth
    cnv.height = innerHeight   
 }
+
+// function print (msg) {
+//    console.log (msg)
+// }
+//or
+const print = (msg) => {
+   console.log (msg)
+} 
+print (`what's up`)
+
+const ex_arr = [`a` ,`b` ,`c`]
+print (ex_arr.length)
+
+ex_arr.forEach (print)
+
